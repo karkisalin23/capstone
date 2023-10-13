@@ -1,0 +1,173 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: cadetblue;
+}
+
+.header {
+  background-color: #f8f9fa;
+}
+
+.navbar-brand img {
+  margin-top: -10px;
+}
+
+.navbar-nav{
+  margin-right: 250px;
+}
+
+.search-bar {
+  padding-left: 10px;
+  padding-right: 150px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 50px;
+  border: none;
+  box-shadow: 2px 2px 4px rgb(0, 0, 0, 0.50);
+  margin-right: 150px;
+  background-color: cornflowerblue;
+}
+
+.button button {
+  margin-right: 25px;
+
+}
+
+.content {
+  padding: 20px;
+}
+
+.head-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.head-title img {
+  display: block;
+  margin: 0 auto;
+}
+
+.carousel {
+  margin-bottom: 20px;
+}
+
+.carousel img {
+  width: 100%;
+}
+
+.product-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.product {
+  width: 45%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.product img {
+  width: 100%;
+}
+
+.product h3 {
+  margin-top: 10px;
+}
+
+.product p {
+  margin-bottom: 10px;
+}
+
+.product button {
+  width: 100%;
+}
+
+footer {
+  margin-top: 250px;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.bg-body-tertiary{
+  background-color: cadetblue;
+}
+
+.product-picture{
+  height: 160px;
+}
+
+.product-title{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.product-info{
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.mt-50{
+
+  margin-top: 50px;
+}
+
+.mb-50{
+
+  margin-bottom: 0px;
+}
+
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: white;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .1875rem;
+}
+
+.card-img-actions {
+  position: relative;
+}
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+  text-align: center;
+}
+
+.card-img{
+  width: 350px;
+  height: 335px;
+  object-fit: cover;
+}
+
+.bg-cart:hover {
+  color:cadetblue;
+}
+
+.star{
+  color: red;
+}
+
+.bg-cart {
+background-color:rgb(13, 110, 253);
+color:white;
+}
+
+.bg-cart:hover {
+
+background-color:cadetblue;
+color: white;
+}
+
+a{
+text-decoration: none !important;
+}
+
